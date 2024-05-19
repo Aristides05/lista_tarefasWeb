@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: monospace;
+    width: 100%;
+    user-select: auto;
+}
+
+body{
+    background-color: #fff8e6 ;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#container{
+    width: 30%;
+    height: auto;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(23, 120, 255);
+    padding: 1% 0% 2% 0%;
+    border-radius: 15px;
+}
+
+#tarefa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    #tarefa h2{
+        font-size: 22px;
+        margin-bottom: 6px;
+        color: antiquewhite;
+        text-align: center; /*POR QUE ESTA PRECISANDO DISSO?*/
+    }
+
+    #tarefa input{
+        margin-bottom: 6px;
+        border: none;
+        border-radius: 6px;
+        width: 65%;
+        height: 32px;
+        padding-left: 2%;
+        font-size: 16px;
+    }
+
+    #tarefa button{
+        width: 30%;
+        height: 42%;
+        border-radius: 6px;
+        background-color: rgb(233, 117, 0);
+        font-size: 18px;
+        font-weight: 600;
+        color: antiquewhite;
+        border: none;
+    }
+
+        #tarefa button:hover{
+            background-color: rgb(217, 109, 0);
+        }
+
+        #tarefa button:active{
+            background-color: rgb(207, 104, 0);
+        }
+
+#lista_tarefas{
+    border-top: solid 1px #fff8e6;
+    width: 90%;
+    margin: auto;
+    margin-top: 1%;
+    font-size: 18px;
+    cursor: pointer;
+    color: #fff8e6;
+    font-weight: 500;
+    padding-top: 2%;
+}
